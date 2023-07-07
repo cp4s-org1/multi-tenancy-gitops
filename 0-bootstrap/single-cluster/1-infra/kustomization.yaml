@@ -57,7 +57,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/cp4s-org1/multi-tenancy-gitops
+      value: https://github.com/cp4s-org1/multi-tenancy-gitops/0-bootstrap/single-cluster/1-infra
     - op: add
       path: /spec/source/targetRevision
       value: master
