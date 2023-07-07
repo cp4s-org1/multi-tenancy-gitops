@@ -10,10 +10,10 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: ${GIT_BASEURL}/${GIT_ORG}/${GIT_GITOPS}
+      value: https://github.com/cp4s-org1/multi-tenancy-gitops
     - op: add
       path: /spec/source/targetRevision
-      value: ${GIT_GITOPS_BRANCH}
+      value: master
 - target:
     group: argoproj.io
     kind: AppProject
@@ -66,4 +66,4 @@ patches:
   patch: |-
     - op: replace
       path: /spec/destination/namespace
-      value: ${GIT_GITOPS_NAMESPACE}
+      value: openshift-gitops
