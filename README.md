@@ -1,4 +1,4 @@
-# Cloud Native Toolkit - GitOps Production Deployment Guide
+# Cloud Native Toolkit - GitOps Production Deployment Guide (FGM)
 
 The GitOps concept originated from [Weaveworks](https://www.weave.works/) back in 2017 and the goal was to automate the operations of a Kubernetes (K8s) system using a model external to the system as the source of truth ([History of GitOps](https://www.weave.works/blog/the-history-of-gitops)).
 
